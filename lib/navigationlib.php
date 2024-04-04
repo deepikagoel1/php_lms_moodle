@@ -1365,7 +1365,7 @@ class global_navigation extends navigation_node {
                 'type' => navigation_node::TYPE_SYSTEM,
                 'text' => get_string('myhome'),
                 'action' => new moodle_url('/my/'),
-                'icon' => new pix_icon('i/calendar', '')
+                'icon' => new pix_icon('i/dashboard', '')
             );
         }
 
@@ -1428,7 +1428,7 @@ class global_navigation extends navigation_node {
                 if (!empty($CFG->enabledashboard)) {
                     // Only add dashboard to home if it's enabled.
                     $this->rootnodes['home'] = $this->add(get_string('myhome'), new moodle_url('/my/'),
-                        self::TYPE_SETTING, null, 'myhome', new pix_icon('i/calendar', ''));
+                        self::TYPE_SETTING, null, 'myhome', new pix_icon('i/dashboard', ''));
                     $this->rootnodes['home']->showinflatnavigation = true;
                 }
             }

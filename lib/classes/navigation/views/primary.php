@@ -61,7 +61,7 @@ class primary extends view {
                 !in_array('myhome', $this->page->theme->removedprimarynavitems));
             if ($showmyhomenode) {
                 $this->add(get_string('myhome'), new \moodle_url('/my/'),
-                    self::TYPE_SETTING, null, 'myhome', new \pix_icon('i/calendar', ''));
+                    self::TYPE_SETTING, null, 'myhome', new \pix_icon('i/dashboard', ''));
             }
 
             // Add the mycourses link.
