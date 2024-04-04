@@ -21,7 +21,7 @@ Feature: Primary navigation
     Examples:
       | defaulthomepageset | homepage    |  sitehome  |  linkelement                                                  |
       |   0                | Home        |   Home     |  a.nav-link.active:not([tabindex]):not([href*='redirect=0'])  |
-      |   1                | Dashboard   |   Home     |  a.nav-link[tabindex='-1'][href$='redirect=0']                |
+      |   1                | Calendar    |   Home     |  a.nav-link[tabindex='-1'][href$='redirect=0']                |
       |   3                | My courses  |   Home     |  a.nav-link[tabindex='-1'][href$='redirect=0']                |
 
   @javascript @theme_boost
@@ -43,7 +43,7 @@ Feature: Primary navigation
     Examples:
       | userpreference | homepage    |
       |   Home         | Home        |
-      |   Dashboard    | Dashboard   |
+      |   Calendar     | Calendar    |
       |   My courses   | My courses  |
 
   @javascript @theme_boost
