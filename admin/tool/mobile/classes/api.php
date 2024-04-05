@@ -511,7 +511,7 @@ class api {
             'site_main_menu' => 'CoreBlockDelegate_AddonBlockSiteMainMenu',
             'myoverview' => 'CoreBlockDelegate_AddonBlockMyOverview',
             'course_list' => 'CoreBlockDelegate_AddonBlockCourseList',
-            'timeline' => 'CoreBlockDelegate_AddonBlockTimeline',
+            // 'timeline' => 'CoreBlockDelegate_AddonBlockTimeline',
             'recentlyaccessedcourses' => 'CoreBlockDelegate_AddonBlockRecentlyAccessedCourses',
             'starredcourses' => 'CoreBlockDelegate_AddonBlockStarredCourses',
             'recentlyaccesseditems' => 'CoreBlockDelegate_AddonBlockRecentlyAccessedItems',
